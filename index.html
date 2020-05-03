@@ -6,18 +6,32 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb32675e79.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 </head>
 <body>
-<section class="header">
+<div class="overlay">
+    <nav class="overlayMenu">
+        <ul role="menu">
+            <li><a href="#" role="menuitem">Parity</a></li>
+            <li><a href="#" role="menuitem">Abstract</a></li>
+            <li><a href="#" role="menuitem">Educated</a></li>
+            <li><a href="#" role="menuitem">Decorum</a></li>
+            <li><a href="#" role="menuitem">Tenuous</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="navBurger" role="navigation" id="navToggle"></div>
+<header>
     <div class="header_section">
             <a class="logo" href="#">
                 <img src="images/logo.png" alt="logo">
             </a>
         <h1 class="big_title">Say <span class="italic">Haloa </span>to your Portfolio</h1>
-        </div>
     </div>
-</section>
+</header>
 <section class="wrap">
     <div class="container">
     <h4 class="title">Who we Are</h4>
@@ -26,7 +40,7 @@
         <a class="button_more" href="#">Read More About Us</a>
     </div>
 </section>
-<section class="wrap">
+<section class="wrap wrap_gallery">
     <div class="container">
     <h4 class="title">What We Do</h4>
     <h2 class="subtitle">Show Your Amazing Work</h2>
@@ -42,7 +56,7 @@
         <img class="image" src="images/yellow.png" alt="yellow">
     </div>
 </section>
-<section class="wrap">
+<section class="wrap wrap_person">
     <div class="container">
         <h4 class="title">Who We Are</h4>
         <h2 class="subtitle">The Amazing People Behind This</h2>
@@ -80,7 +94,9 @@
         <h4 class="title">Last Post</h4>
         <h2 class="subtitle">We Like to Write</h2>
         <div class="read">
-            <div class="inbox">
+            <div class="read_img">
+            <img src="images/write.png" alt="write">
+            </div>
                 <div class="inbox_text">
             <h3 class="data">14 September 2014</h3>
             <h2 class="change">Change Your Space</h2>
@@ -88,13 +104,11 @@
                     <a href="#" class="button_inbox">Read</a>
                 </div>
         </div>
-        </div>
         <a class="button_more" href="#">More From Our Blog</a>
     </div>
 </section>
 <section class="wrap">
 <div class="container">
-
     <h4 class="title">Contact Us</h4>
     <h2 class="subtitle">Work With Us</h2>
     <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.8733128966746!2d-73.99878828444373!3d40.742813079328585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bb65ffb4b7%3A0xfb6f9cef91401b93!2sEvents%20Coverage%20and%20Photography!5e0!3m2!1sru!2sua!4v1588026083989!5m2!1sru!2sua" width=100% height=100% frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
@@ -129,5 +143,9 @@
         <p class="text_footer">Email: imdiogodantas@gmail.com</p>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
