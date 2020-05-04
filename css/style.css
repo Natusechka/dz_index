@@ -91,6 +91,7 @@ header{
 .header_section{
     max-width: 1187px;
     margin: auto;
+    position: relative;
 }
 .logo img{
     width: 100%;
@@ -197,15 +198,40 @@ header{
 .italic{
     font-style: italic;
 }
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 .big_title {
     font-size: 80px;
+    animation: blink 5s;
     color: white;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    margin-top: 300px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+@keyframes move{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 100px;
+        background-color: #d4af37;
+    }
+    100%{
+        left: 0;
+    }
 }
 .button_inbox{
+    animation: move 5s alternate infinite;
+    position: relative;
     font-size: 14px;
     line-height: 50px;
     display: inline-block;
@@ -237,7 +263,7 @@ header{
     right: 20px;
     top: 20px;
     cursor: pointer;
-    background: white;
+    background: black;
     box-sizing: border-box;
     background-clip: content-box;
     width: 30px;
@@ -251,7 +277,7 @@ header{
 .navBurger:before, .navBurger:after {
     content: "";
     position: absolute;
-    background: white;
+    background: black;
     height: 2px;
     width: 100%;
     right: 0;
@@ -373,4 +399,39 @@ p {
     font-size: 16px;
     font-family: "Crimson Text";
     color: #222;
+}
+@keyframes box_crazzy{
+    0%{
+        left: 30%;
+}
+    20%{
+        top: 200px;
+        transform: rotate(180deg);
+    }
+    50%{
+        top: 100px;
+        transform:rotate(0deg);
+        left: 80%;
+    }
+    100%{
+        left: 0;
+        transform:rotate(180deg) ;
+    }
+}
+.box_crazzy{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    animation: box_crazzy 4s infinite;
+}
+@keyframes bouncing{
+    0%  { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5); }
+    100% { bottom: 50px; box-shadow: 0 50px 50px rgba(0,0,0,0.1); }
+}
+
+.button_more{
+    animation: bouncing 0.5s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;
+    position: relative;
 }
