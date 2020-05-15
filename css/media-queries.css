@@ -1,80 +1,245 @@
 @media only screen and (max-width: 375px) {
-    .wrap {
-        padding: 150px 30px;
+    header {
+        background: url("../images/mobile_project.png") no-repeat;
+        height: 100vh;
+        background-size: 100% auto;
+        padding: 12px 28px;
     }
-    .image {
-        width: 100%;
+
+    .nora {
+        padding: 152px 37px 36px;
     }
-    .wrap_gallery {
-        padding-left: 0;
-        padding-right: 0;
+
+    .in_nora {
+        padding: 68px 32px 0;
     }
-    .staff {
-        flex-wrap: wrap;
-        justify-content: center;
+
+    .letter {
+        margin-bottom: 32px;
     }
-    .person {
-        margin-bottom: 60px;
-        width: 100%;
+
+    .nora {
+        margin-bottom: 32px;
     }
-    .wrap_person {
-        padding-bottom: 90px;
+
+    .social {
+        display: none;
     }
-    .read {
-        flex-wrap: wrap;
-    }
-    .read_img {
-        width: 100%;
-    }
-    .inbox_text {
-        width: 100%;
-    }
+
     .iframe {
         width: 100%;
         height: 100%;
     }
+
     .container_footer {
         flex-wrap: wrap;
         justify-content: flex-start;
         text-align: left;
     }
+
     footer {
-        padding: 78px 15px 68px;
+        padding: 39px 15px 34px;
     }
-    header {
-        background: url("../images/background_mobile2.png") no-repeat;
+
+    .project {
+        background: url("../images/mobile_project.png") no-repeat;
         height: 100vh;
         background-size: 100% auto;
-        padding:7px 28px 0;
+        padding: 5px 28px 0;
     }
-    .big_title{
+
+    .big_title {
         font-size: 50px;
         top: 200px;
         left: 30px;
         margin-bottom: 48px;
     }
-    .big_title:after{
+
+    .big_title:after {
         content: "\f13a";
         display: block;
-        font-size: 40px ;
-        font-family: "Font Awesome 5 Free";
+        font-size: 40px;
+        font-family: 'Line Awesome Free';
+        font-weight: 900;
         color: white;
         background-color: inherit;
-        font-weight: 900;
     }
-    .text{
+
+    .text {
         font-size: 13px;
     }
-    .overlayMenu{
+
+    .overlayMenu {
         bottom: 50vw;
     }
-    .navBurger:before, .navBurger:after{
-        background-color: white;
-    }
-    .navBurger{
-        background-color: white;
-    }
-}
-@media only screen and (max-width: 320px) {
 
+    .navBurger:before, .navBurger:after {
+        background-color: white;
+    }
+
+    .navBurger {
+        background-color: white;
+        right: 14px;
+        top: 15px;
+    }
+
+    .MENU {
+        display: none;
+    }
+
+    header {
+        background: url("../images/background_img2.png") no-repeat;
+        height: 100vh;
+        background-size: 100% auto;
+        padding: 12px 28px;
+    }
+
+    .logo {
+        margin-bottom: 500px;
+    }
+
+    .wrapper {
+        padding: 300px 15px;
+    }
+
+    .image_service {
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .services {
+        flex-wrap: wrap;
+    }
+
+    .in_box {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .text_in_box {
+        width: 100%;
+        margin: 0 0 170px;
+    }
+
+    .list {
+        width: 100%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 15px;
+        text-align: left;
+    }
+
+    .overlayMenu {
+        bottom: 50vw;
+    }
+
+    .navBurger:before, .navBurger:after {
+        background-color: white;
+    }
+
+    .navBurger {
+        background-color: white;
+    }
+
+    .wrap {
+        padding: 75px 15px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .wrap_gallery {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .staff {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .person {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .wrap_person {
+        padding-bottom: 45px;
+    }
+
+    .read {
+        flex-wrap: wrap;
+    }
+
+    .read_img {
+        width: 100%;
+    }
+
+    .inbox_text {
+        width: 100%;
+    }
+
+    .iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container_footer {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    footer {
+        padding: 39px 15px 34px;
+    }
+
+    header {
+        background: url("../images/background_mobile2.png") no-repeat;
+        height: 100vh;
+        background-size: 100% auto;
+        padding: 5px 28px 0;
+    }
+
+    .big_title {
+        font-size: 50px;
+        top: 200px;
+        left: 30px;
+        margin-bottom: 48px;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .overlayMenu {
+        bottom: 50vw;
+    }
+
+    .navBurger:before, .navBurger:after {
+        background-color: white;
+    }
+
+    .navBurger {
+        background-color: white;
+        right: 14px;
+        top: 15px;
+    }
+
+    .MENU {
+        display: none;
+    }
+
+    .about {
+        background: url("../images/background_img2.png");
+    }
 }
