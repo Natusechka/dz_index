@@ -2,5 +2,60 @@
 @import "../fonts/1.3.0/css/line-awesome.css";
 @import "style.css";
 @import "media-queries.css";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+$main_width:768px;
+$main_font-family: 'Open Sans', sans-serif;
+$text_font-weight: 300;
+$title_font-weight: 600;
+$text_color:#747a7f;
+$title_color: #d4af37;
+$subtitle_color: #505d68;
+$background:  #f9f9f9;
+
+@keyframes logo {
+  0%{
+    position: absolute;
+    top: -300px;
+  }
+  100%{
+    position: relative;
+    right: inherit;
+    top: 0;
+  }
+}
+@mixin max-screen ($number){
+  @media screen and (max-width: $number) {
+    @content;
+  }
+}
+header {
+  padding-top: 16px;
+  height: 100vh;
+  background: url("../images/background.png") no-repeat;
+  background-size: 100% auto;
+  @include max-screen(767px){
+    background: url("../images/mobile_project.png") no-repeat;
+    padding: 12px 28px;
+  }
+}
+      .header_section {
+        max-width: 1187px;
+        margin: auto;
+        position: relative;
+          .logo {
+            display: inline-block;
+            width: 100%;
+            max-width: 191px;
+            animation: logo 3s;
+            .logo img {
+              width: 100%;
+          }
+        }
+      }
+
 
 
