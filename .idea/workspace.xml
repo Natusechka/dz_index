@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42139613-3d09-4d48-a203-c44b8aa43b2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_preproc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_preproc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_preproc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_preproc.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_preproc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_preproc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="42139613-3d09-4d48-a203-c44b8aa43b2c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +77,7 @@
       <workItem from="1589576833806" duration="8218000" />
       <workItem from="1589615526606" duration="2178000" />
       <workItem from="1589828988631" duration="29618000" />
-      <workItem from="1589922423940" duration="720000" />
+      <workItem from="1589922423940" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="position img,title">
       <created>1588164117428</created>
@@ -156,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589904664802</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed container">
+      <created>1589923314993</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589923314993</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed container">
+      <created>1589923388519</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589923388519</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +180,8 @@
     <MESSAGE value="start preproc" />
     <MESSAGE value="preproc index" />
     <MESSAGE value="preproc index menu z-index" />
-    <option name="LAST_COMMIT_MESSAGE" value="preproc index menu z-index" />
+    <MESSAGE value="fixed container" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed container" />
   </component>
   <component name="WindowStateProjectService">
     <state x="580" y="252" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589563467078">
@@ -184,10 +192,10 @@
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="561" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1538.900@62.0.1538.900" timestamp="1589559959932" />
-    <state x="456" y="65" key="CommitChangelistDialog2" timestamp="1589923336789">
+    <state x="456" y="65" key="CommitChangelistDialog2" timestamp="1589923413544">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state x="456" y="65" key="CommitChangelistDialog2/62.0.1538.900/1600.0.1920.1080@62.0.1538.900" timestamp="1589923336789" />
+    <state x="456" y="65" key="CommitChangelistDialog2/62.0.1538.900/1600.0.1920.1080@62.0.1538.900" timestamp="1589923413544" />
     <state x="456" y="65" key="CommitChangelistDialog2/62.0.1538.900@62.0.1538.900" timestamp="1589587044646" />
     <state x="390" y="120" width="730" height="670" key="EditFileWatcherDialog" timestamp="1588681353906">
       <screen x="62" y="0" width="1538" height="900" />
@@ -201,10 +209,10 @@
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="332" y="81" key="SettingsEditor/62.0.1538.900@62.0.1538.900" timestamp="1588681358907" />
-    <state x="423" y="203" key="Vcs.Push.Dialog.v2" timestamp="1589904673945">
+    <state x="423" y="203" key="Vcs.Push.Dialog.v2" timestamp="1589923402437">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
-    <state x="423" y="203" key="Vcs.Push.Dialog.v2/62.0.1538.900/1600.0.1920.1080@62.0.1538.900" timestamp="1589904673945" />
+    <state x="423" y="203" key="Vcs.Push.Dialog.v2/62.0.1538.900/1600.0.1920.1080@62.0.1538.900" timestamp="1589923402437" />
     <state x="423" y="203" key="Vcs.Push.Dialog.v2/62.0.1538.900@62.0.1538.900" timestamp="1589587054589" />
     <state x="526" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1589615526446">
       <screen x="62" y="0" width="1538" height="900" />
