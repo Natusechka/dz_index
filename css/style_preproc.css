@@ -326,19 +326,22 @@ footer {
     width: 100%; }
   .navBurger.active {
     background: transparent;
-    background-clip: content-box; }
+    background-clip: content-box;
+    z-index: 2; }
   .navBurger.active:before {
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
     top: 0;
     background: #eee;
-    width: 110%; }
+    width: 110%;
+    z-index: 2; }
   .navBurger.active:after {
     bottom: 0;
     -webkit-transform: rotate(-135deg);
     transform: rotate(-135deg);
     background: #eee;
-    width: 110%; }
+    width: 110%;
+    z-index: 2; }
 
 .overlay {
   position: fixed;
@@ -355,8 +358,12 @@ footer {
   overflow: hidden; }
   .overlay.open {
     opacity: 0.7;
+    z-index: 2;
     visibility: visible;
     transform: scale(1); }
+    @media screen and (max-width: 767px) {
+      .overlay.open {
+        opacity: 0.9; } }
     .overlay.open li {
       display: block;
       animation: fadeInRight 0.4s cubic-bezier(0.42, 0.83, 0.7, 1.5) forwards;
@@ -440,7 +447,8 @@ p {
   color: #f9f9f9;
   right: 22px;
   position: fixed;
-  top: -10px; }
+  top: -10px;
+  z-index: 2; }
   @media screen and (max-width: 767px) {
     .MENU {
       display: none; } }
