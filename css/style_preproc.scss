@@ -8,8 +8,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-$main_width: 768px;
+$main_width:768px;
 $main_font-family: 'Open Sans', sans-serif;
 $text_font-weight: 300;
 $title_font-weight: 600;
@@ -34,7 +33,11 @@ $main_background: white;
   font-family: $main_font-family;
   font-weight: 400;
 }
-
+.container{
+  max-width: 768px;
+  margin: auto;
+  text-align: center;
+}
 .btn {
   font-size: 14px;
   display: inline-block;
@@ -151,12 +154,7 @@ header {
   @include max-screen(767px) {
     padding: 75px 15px;
   }
-
   .container {
-    max-width: $main_width;
-    margin: auto;
-    text-align: center;
-
     .title {
       font-size: 13px;
       color: $title_color;
@@ -392,14 +390,14 @@ footer {
   @include max-screen(767px) {
     padding: 39px 15px 34px;
   }
-  .container {
-    max-width: 768px;
-    margin: auto;
+  .container_footer{
+    @extend .container;
     display: flex;
     justify-content: space-between;
     @include max-screen(767px) {
       flex-wrap: wrap;
       justify-content: flex-start;
+      text-align: left;
     }
 
     .text_footer {
@@ -407,13 +405,6 @@ footer {
       color: $subtitle_color;
       @extend .light;
     }
-  }
-}
-.container_footer {
-  @include max-screen(767px) {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    text-align: left;
   }
 }
 .navBurger {
@@ -613,9 +604,22 @@ p {
     display: none;
   }
 }
-
-
-
+.about {
+  background: url("../images/background_about.png") no-repeat;
+  padding-top: 16px;
+  height: 100vh;
+  background-size: 100% auto;
+}
+.wrapper {
+  padding-top: 168px;
+  padding-bottom: 161px;
+  background-color: white;
+  .text {
+    color: $subtitle_color;
+    font-size: 18px;
+    @extend .light;
+  }
+}
 
 
 

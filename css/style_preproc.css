@@ -7,11 +7,11 @@
   margin: 0;
   box-sizing: border-box; }
 
-.light, .btn, .wrap .container .button_more, .read .inbox_text .button_inbox, header .header_section .big_title, .wrap .container .about_us, .staff .person .person_box .info, .read .inbox_text .paragraph, .information .box1 .text, footer .container .text_footer {
+.light, .btn, .wrap .container .button_more, .wrap footer .container_footer .button_more, footer .wrap .container_footer .button_more, .read .inbox_text .button_inbox, header .header_section .big_title, .wrap .container .about_us, .wrap footer .container_footer .about_us, footer .wrap .container_footer .about_us, .staff .person .person_box .info, .read .inbox_text .paragraph, .information .box1 .text, footer .container_footer .text_footer, .wrapper .text {
   font-family: "Open Sans", sans-serif;
   font-weight: 300; }
 
-.semibold, .wrap .container .title, .wrap .container .subtitle, .information .box1 .title_box {
+.semibold, .wrap .container .title, .wrap footer .container_footer .title, footer .wrap .container_footer .title, .wrap .container .subtitle, .wrap footer .container_footer .subtitle, footer .wrap .container_footer .subtitle, .information .box1 .title_box {
   font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
@@ -19,7 +19,12 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
-.btn, .wrap .container .button_more, .read .inbox_text .button_inbox {
+.container, footer .container_footer {
+  max-width: 768px;
+  margin: auto;
+  text-align: center; }
+
+.btn, .wrap .container .button_more, .wrap footer .container_footer .button_more, footer .wrap .container_footer .button_more, .read .inbox_text .button_inbox {
   font-size: 14px;
   display: inline-block;
   color: #021725;
@@ -103,27 +108,23 @@ header {
   @media screen and (max-width: 767px) {
     .wrap {
       padding: 75px 15px; } }
-  .wrap .container {
-    max-width: 768px;
-    margin: auto;
-    text-align: center; }
-    .wrap .container .title {
-      font-size: 13px;
-      color: #d4af37;
-      text-transform: uppercase;
-      margin-bottom: 22px; }
-    .wrap .container .subtitle {
-      font-size: 44px;
-      color: #505d68;
-      margin-bottom: 58px; }
-    .wrap .container .about_us {
-      font-size: 18px;
-      color: #505d68;
-      margin-bottom: 51px; }
-    .wrap .container .button_more {
-      line-height: 60px;
-      max-width: 239px;
-      animation: bouncing 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both; }
+  .wrap .container .title, .wrap footer .container_footer .title, footer .wrap .container_footer .title {
+    font-size: 13px;
+    color: #d4af37;
+    text-transform: uppercase;
+    margin-bottom: 22px; }
+  .wrap .container .subtitle, .wrap footer .container_footer .subtitle, footer .wrap .container_footer .subtitle {
+    font-size: 44px;
+    color: #505d68;
+    margin-bottom: 58px; }
+  .wrap .container .about_us, .wrap footer .container_footer .about_us, footer .wrap .container_footer .about_us {
+    font-size: 18px;
+    color: #505d68;
+    margin-bottom: 51px; }
+  .wrap .container .button_more, .wrap footer .container_footer .button_more, footer .wrap .container_footer .button_more {
+    line-height: 60px;
+    max-width: 239px;
+    animation: bouncing 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both; }
 
 @media screen and (max-width: 767px) {
   .wrap_gallery {
@@ -268,24 +269,17 @@ footer {
   @media screen and (max-width: 767px) {
     footer {
       padding: 39px 15px 34px; } }
-  footer .container {
-    max-width: 768px;
-    margin: auto;
+  footer .container_footer {
     display: flex;
     justify-content: space-between; }
     @media screen and (max-width: 767px) {
-      footer .container {
+      footer .container_footer {
         flex-wrap: wrap;
-        justify-content: flex-start; } }
-    footer .container .text_footer {
+        justify-content: flex-start;
+        text-align: left; } }
+    footer .container_footer .text_footer {
       font-size: 16px;
       color: #505d68; }
-
-@media screen and (max-width: 767px) {
-  .container_footer {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    text-align: left; } }
 
 .navBurger {
   position: fixed;
@@ -452,5 +446,19 @@ p {
   @media screen and (max-width: 767px) {
     .MENU {
       display: none; } }
+
+.about {
+  background: url("../images/background_about.png") no-repeat;
+  padding-top: 16px;
+  height: 100vh;
+  background-size: 100% auto; }
+
+.wrapper {
+  padding-top: 168px;
+  padding-bottom: 161px;
+  background-color: white; }
+  .wrapper .text {
+    color: #505d68;
+    font-size: 18px; }
 
 /*# sourceMappingURL=style_preproc.css.map */
