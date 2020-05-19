@@ -1,11 +1,4 @@
 @media only screen and (max-width: 375px) {
-    header {
-        background: url("../images/mobile_project.png") no-repeat;
-        height: 100vh;
-        background-size: 100% auto;
-        padding: 12px 28px;
-    }
-
     .nora {
         padding: 152px 37px 36px;
     }
@@ -25,77 +18,11 @@
     .social {
         display: none;
     }
-
-    .iframe {
-        width: 100%;
-        height: 100%;
-    }
-
-    .container_footer {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        text-align: left;
-    }
-
-    footer {
-        padding: 39px 15px 34px;
-    }
-
     .project {
         background: url("../images/mobile_project.png") no-repeat;
         height: 100vh;
         background-size: 100% auto;
         padding: 5px 28px 0;
-    }
-
-    .big_title {
-        font-size: 50px;
-        top: 200px;
-        left: 30px;
-        margin-bottom: 48px;
-    }
-
-    .big_title:after {
-        content: "\f13a";
-        display: block;
-        font-size: 40px;
-        font-family: 'Line Awesome Free';
-        font-weight: 900;
-        color: white;
-        background-color: inherit;
-    }
-
-    .text {
-        font-size: 13px;
-    }
-
-    .overlayMenu {
-        bottom: 50vw;
-    }
-
-    .navBurger:before, .navBurger:after {
-        background-color: white;
-    }
-
-    .navBurger {
-        background-color: white;
-        right: 14px;
-        top: 15px;
-    }
-
-    .MENU {
-        display: none;
-    }
-
-    header {
-        background: url("../images/background_img2.png") no-repeat;
-        height: 100vh;
-        background-size: 100% auto;
-        padding: 12px 28px;
-    }
-
-    .logo {
-        margin-bottom: 500px;
     }
 
     .wrapper {
@@ -125,120 +52,15 @@
         width: 100%;
         margin: 0 0 170px;
     }
-
     .list {
         width: 100%;
     }
-
-    .footer {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        padding: 15px;
-        text-align: left;
-    }
-
-    .overlayMenu {
-        bottom: 50vw;
-    }
-
-    .navBurger:before, .navBurger:after {
-        background-color: white;
-    }
-
-    .navBurger {
-        background-color: white;
-    }
-
-    .wrap {
-        padding: 75px 15px;
-    }
-
-    .image {
-        width: 100%;
-    }
-
-    .wrap_gallery {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .staff {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .person {
-        margin-bottom: 30px;
-        width: 100%;
-    }
-
-    .wrap_person {
-        padding-bottom: 45px;
-    }
-
-    .read {
-        flex-wrap: wrap;
-    }
-
-    .read_img {
-        width: 100%;
-    }
-
     .inbox_text {
         width: 100%;
     }
-
-    .iframe {
-        width: 100%;
-        height: 100%;
-    }
-
-    .container_footer {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        text-align: left;
-    }
-
-    footer {
-        padding: 39px 15px 34px;
-    }
-
-    header {
-        background: url("../images/background_mobile2.png") no-repeat;
-        height: 100vh;
-        background-size: 100% auto;
-        padding: 5px 28px 0;
-    }
-
-    .big_title {
-        font-size: 50px;
-        top: 200px;
-        left: 30px;
-        margin-bottom: 48px;
-    }
-
     .text {
         font-size: 13px;
     }
-
-    .overlayMenu {
-        bottom: 50vw;
-    }
-
-    .navBurger:before, .navBurger:after {
-        background-color: white;
-    }
-
-    .navBurger {
-        background-color: white;
-        right: 14px;
-        top: 15px;
-    }
-
-    .MENU {
-        display: none;
-    }
-
     .about {
         background: url("../images/background_img2.png");
     }

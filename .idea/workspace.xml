@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="42139613-3d09-4d48-a203-c44b8aa43b2c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_preproc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_preproc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style_preproc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_preproc.css.map" afterDir="false" />
@@ -80,7 +81,9 @@
       <workItem from="1589143623639" duration="3909000" />
       <workItem from="1589387544452" duration="10301000" />
       <workItem from="1589549932193" duration="13115000" />
-      <workItem from="1589576833806" duration="8172000" />
+      <workItem from="1589576833806" duration="8218000" />
+      <workItem from="1589615526606" duration="2178000" />
+      <workItem from="1589828988631" duration="25150000" />
     </task>
     <task id="LOCAL-00001" summary="position img,title">
       <created>1588164117428</created>
@@ -131,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589565003632</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="start preproc">
+      <created>1589587045284</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589587045284</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +155,8 @@
     <MESSAGE value="add animation" />
     <MESSAGE value="add preproc" />
     <MESSAGE value="add preproc+links" />
-    <option name="LAST_COMMIT_MESSAGE" value="add preproc+links" />
+    <MESSAGE value="start preproc" />
+    <option name="LAST_COMMIT_MESSAGE" value="start preproc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="580" y="252" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589563467078">
@@ -156,11 +167,11 @@
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="561" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1538.900@62.0.1538.900" timestamp="1589559959932" />
-    <state x="456" y="65" key="CommitChangelistDialog2" timestamp="1589565001601">
+    <state x="456" y="65" key="CommitChangelistDialog2" timestamp="1589587044646">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="456" y="65" key="CommitChangelistDialog2/62.0.1538.900/1600.0.1920.1080@62.0.1538.900" timestamp="1588465029520" />
-    <state x="456" y="65" key="CommitChangelistDialog2/62.0.1538.900@62.0.1538.900" timestamp="1589565001601" />
+    <state x="456" y="65" key="CommitChangelistDialog2/62.0.1538.900@62.0.1538.900" timestamp="1589587044646" />
     <state x="390" y="120" width="730" height="670" key="EditFileWatcherDialog" timestamp="1588681353906">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
@@ -173,16 +184,16 @@
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="332" y="81" key="SettingsEditor/62.0.1538.900@62.0.1538.900" timestamp="1588681358907" />
-    <state x="423" y="203" key="Vcs.Push.Dialog.v2" timestamp="1589565008872">
+    <state x="423" y="203" key="Vcs.Push.Dialog.v2" timestamp="1589587054589">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="423" y="203" key="Vcs.Push.Dialog.v2/62.0.1538.900/1600.0.1920.1080@62.0.1538.900" timestamp="1588465032284" />
-    <state x="423" y="203" key="Vcs.Push.Dialog.v2/62.0.1538.900@62.0.1538.900" timestamp="1589565008872" />
-    <state x="526" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1589576834092">
+    <state x="423" y="203" key="Vcs.Push.Dialog.v2/62.0.1538.900@62.0.1538.900" timestamp="1589587054589" />
+    <state x="526" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1589615526446">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
     <state x="526" y="294" key="com.intellij.ide.util.TipDialog/62.0.1538.900/1600.0.1920.1080@62.0.1538.900" timestamp="1589387545379" />
-    <state x="526" y="294" key="com.intellij.ide.util.TipDialog/62.0.1538.900@62.0.1538.900" timestamp="1589576834092" />
+    <state x="526" y="294" key="com.intellij.ide.util.TipDialog/62.0.1538.900@62.0.1538.900" timestamp="1589615526446" />
     <state x="474" y="64" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589585506866">
       <screen x="62" y="0" width="1538" height="900" />
     </state>
